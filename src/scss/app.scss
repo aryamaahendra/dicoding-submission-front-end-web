@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.content {
+   min-height: calc(100vh - 550px);
+}
+
+.jumbotron {
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/cover.jpg');
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+.case-font {
+   font-weight: bold;
+   font-size: 1.75rem;
+   line-height: 0.75em;
+   margin-top: 0.5em;
+   span{
+      font-size: 1rem;
+   }
+}
